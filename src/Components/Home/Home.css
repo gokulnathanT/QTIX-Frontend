@@ -1,0 +1,47 @@
+.homeHead h1{
+    font-size:100px;
+    margin: auto;
+    position: relative;
+}
+.homeHead span{
+    font-size: 20px;
+    color: black;
+
+}
+.homeHead h4{
+     color: grey;
+     margin: auto;
+     width: fit-content;
+     
+}
+
+.homeText{
+    text-align: left;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-left: 30px solid black;
+    height: 75px;
+    border-radius: 20px;
+}
+.homeHeading{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.homeHead {
+    position: fixed;
+    padding-left: 100px;
+    top: 0;
+    left: 0;
+    width: 70%;
+    z-index: 1000;
+    height: 17vh;
+    align-items: center;
+    display: flex;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: white; 
+}
