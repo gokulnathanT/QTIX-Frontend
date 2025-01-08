@@ -1,0 +1,37 @@
+.popup-overlay{
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.7);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+
+}
+.popup-content{
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    height: 400px;
+    width: 500px;
+    overflow-y: scroll;
+}
+
+.solvedQuestions li{
+    list-style: none;
+    border: 2px solid rgb(147, 195, 233);
+    line-height:10px ;
+    padding-left: 2px;
+    margin-bottom: 10px;
+}
+.solvedQuestions ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
